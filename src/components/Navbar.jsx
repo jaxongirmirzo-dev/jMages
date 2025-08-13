@@ -7,7 +7,7 @@ function Navbar() {
   const { user } = useSelector((store) => store.user);
   console.log(user);
   return (
-    <div className="flex">
+    <div className="flex container items-center mt-6">
       <h1 className="text-5xl font-mono text-shadow-accent mr-auto [text-shadow:1px_10px_5px_rgba(0,0,0,0.3)]">
           Jimages
         </h1>
