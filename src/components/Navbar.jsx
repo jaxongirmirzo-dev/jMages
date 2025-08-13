@@ -20,17 +20,7 @@ function Navbar() {
           />
           <h3 className="text-2xl font-sans underline">{user?.displayName}</h3>
         </div>
-      {!isPending && (
-        <button onClick={logOut} className="btn btn-primary">
-          LogOut
-        </button>
-      )}
 
-      {isPending && (
-        <button disabled className="btn btn-primary">
-          LogOut
-        </button>
-      )}
     </div>
   );
 }
